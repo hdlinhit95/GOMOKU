@@ -1,0 +1,11 @@
+﻿<Window x:Class="GOMOKU.View.PVSC"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PVSC" Height="162.637" Width="343.956">
+    <Grid>
+        <Label Content="Player" HorizontalAlignment="Left" Margin="52,35,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Player" HorizontalAlignment="Left" Height="23" Margin="123,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="107,85,0,0" Click="Button_Click"/>
+
+    </Grid>
+</Window>
