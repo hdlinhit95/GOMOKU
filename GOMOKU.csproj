@@ -34,14 +34,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EngineIoClientDotNet">
+    <Reference Include="EngineIoClientDotNet, Version=0.9.21.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Caro\Release\EngineIoClientDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Working\Caro\Caro\Caro\bin\Debug\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\Caro\Caro\Caro\bin\Debug\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="SocketIoClientDotNet">
+    <Reference Include="SocketIoClientDotNet, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Caro\Release\SocketIoClientDotNet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -54,7 +56,8 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="WebSocket4Net">
+    <Reference Include="WebSocket4Net, Version=0.12.0.0, Culture=neutral, PublicKeyToken=eb4e154b696bf72a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Caro\Release\WebSocket4Net.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
